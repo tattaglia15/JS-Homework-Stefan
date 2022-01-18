@@ -1,0 +1,7 @@
+let myInputs = $("#inputs")
+console.log(myInputs[0])
+let header = $("h3")
+header.text("HELLO THERE")
+let myDiv = $("div")
+myDiv.last().html("<h4>H4tag</h4>")
+console.log(myDiv[1])
